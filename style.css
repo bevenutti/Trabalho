@@ -73,6 +73,20 @@ body {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
+=======
+.planta {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.destaque {
+    border: 1px solid rgba(255, 221, 85, 0.3);
+    background: linear-gradient(145deg, #1a1a1a 60%, rgba(255, 221, 85, 0.08));
+}
+
+>>>>>>> a8731b6fccf2f656001b60efb136b94b6f5f091a
 /* Responsivo */
 @media (max-width: 900px) {
     .cards {
