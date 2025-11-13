@@ -88,3 +88,22 @@ body {
         align-items: center;
     }
 }
+
+.section-03{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+h3{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+img{
+    width: 30rem;
+    height: 20rem;
+}
