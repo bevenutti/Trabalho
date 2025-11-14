@@ -3,6 +3,50 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+header {
+    background-color: #352630;
+    /*cor de fundo usando paleta de cores*/
+    padding: 2rem;
+    /*Preenchimento interno * 32px*/
+
+    /*Propriedade de alinhamento*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /*header fixo*/
+    position: sticky;
+    /*posicionamneto fixo do header*/
+    left: 0;
+    /*zerando a esquerda*/
+    top: 0;
+    /*zetando ao topo*/
+    z-index: 999;
+}
+
+/*Estilização da logo*/
+.logo-ms {
+    width: 8rem;
+    height: auto;
+    /*o auto servira como altura automatica em relação a tela o navegador*/
+}
+
+.ul-list {
+    /*aplicando formatação na UL*/
+    display: flex;
+    /*colocando as LI lado a lado*/
+    gap: 10px;
+    /*espaçamento entre as listas*/
+}
+
+.ul-list li a {
+    /*removendo a estilização padrão da ancora, quando aparece a cor e a linha abaixo como se fosse um link*/
+    text-decoration: none;
+    color: #f7f8fc;
+
 }
 
 body {
@@ -23,7 +67,7 @@ body {
 }
 
 .texto-intro span {
-    color:#1aa80d;
+    color: #1aa80d;
     font-style: italic;
     font-weight: 600;
 }
@@ -36,7 +80,7 @@ body {
     justify-content: space-between;
     margin-top: 40px;
     gap: 25px;
-   
+
 }
 
 .card {
@@ -73,43 +117,31 @@ body {
     line-height: 1.6;
 }
 
-<<<<<<< HEAD
-=======
-.planta {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.destaque {
-    border: 1px solid rgba(255, 221, 85, 0.3);
-    background: linear-gradient(145deg, #1a1a1a 60%, rgba(255, 221, 85, 0.08));
-}
-
->>>>>>> a8731b6fccf2f656001b60efb136b94b6f5f091a
 /* Responsivo */
 @media (max-width: 900px) {
     .cards {
         flex-direction: column;
         align-items: center;
     }
-}
 
-.section-03{
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
 
-h3{
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-}
+    .section-03 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-img{
-    width: 30rem;
-    height: 20rem;
+    h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    img {
+        width: 30rem;
+        height: 20rem;
+    }
+
 }
