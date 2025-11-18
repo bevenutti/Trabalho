@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: #352630;
+    background-color: black;
     /*cor de fundo usando paleta de cores*/
     padding: 2rem;
     /*Preenchimento interno * 32px*/
@@ -117,7 +117,35 @@ body {
     line-height: 1.6;
 }
 
+.section-mobilidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    gap: 2rem;
 
+}
+
+.div-missao-visao {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.div-missao-visao h3 {
+    font-size: 2rem;
+}
+
+.div-missao-visao p {
+    font-size: 20px;
+}
+
+.img-mobilidade {
+    width: 25rem;
+    height: auto;
+    border-radius: 2rem;
+}
 
 @media (max-width: 900px) {
     .cards {
@@ -127,7 +155,6 @@ body {
 }
 
 .section-mobilidade { 
-   background-image: url();
     align-items: center;
     text-align: center;
     margin-top: 4rem;
