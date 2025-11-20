@@ -26,6 +26,24 @@ header {
     /*zetando ao topo*/
     z-index: 999;
 }
+/* ------------------------------------------------------ */
+/* banner das section  */
+.section-banner{
+background-image: url(imagem/imagem1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10rem;
+}
+.section-banner2{
+background-image: url(imagem/marca2.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10rem;
+gap:1rem;
+}
+/* ------------------------------------------ */
 
 /*Estilização da logo*/
 .logo-ms {
