@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+/* Centralizar conteúdo */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d0d0d; /* Preto profundo */
+}
+
+/* Container do formulário */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Formulário estilizado */
+form {
+    background-color: #111; /* Preto levemente diferente do fundo */
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+}
+
+/* Nome Move Smart */
+form h1 {
+    color: #00aaff; /* Azul vibrante */
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* Título do formulário */
+form h2 {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #00aaff;
+    box-shadow: 0 0 8px #00aaff;
+    outline: none;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0077aa;
+    transform: translateY(-2px);
+}
+
+/* Placeholder */
