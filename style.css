@@ -385,5 +385,14 @@ footer {
         width: 80%;
         text-align: center;
     }
+    .section-03{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-mobilidade{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
