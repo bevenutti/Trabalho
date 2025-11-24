@@ -94,7 +94,7 @@ button {
     width: 100%;
     padding: 14px;
     margin-top: 15px;
-    background-color: #00aaff;
+    background-color: #157c07;
     color: white;
     border: none;
     border-radius: 8px;
@@ -105,7 +105,7 @@ button {
 }
 
 button:hover {
-    background-color: #0077aa;
+    background-color: #175a0a;
     transform: translateY(-2px);
 }
 
