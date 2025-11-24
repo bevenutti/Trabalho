@@ -294,5 +294,9 @@ footer {
         width: 80%;
         text-align: center;
     }
+
+    .section-02{
+        flex-direction: column;
+    }
 }
 
