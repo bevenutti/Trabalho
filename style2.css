@@ -203,9 +203,12 @@ body {
     flex-direction: column;
     gap: 10px;
     padding: 1rem 0;
-  }
-
+    display: none;
+  } 
   
+   .list-header {
+    display: none;
+  }
 
 }
 footer {
