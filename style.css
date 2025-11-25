@@ -610,10 +610,32 @@ footer {
 
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
   .footer-container {
     flex-direction: column;
     align-items: center;
   }
+=======
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        width: 80%;
+        text-align: center;
+    }
+    .section-03{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-mobilidade{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+>>>>>>> e5890948ef424fdec7c78e9b40e225b208d1d7ba
 
   .footer-section {
     width: 80%;
