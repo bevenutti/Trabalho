@@ -336,7 +336,7 @@ body {
 
   .ul-list2 {
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
     padding: 1rem 0;
   }
 
@@ -395,11 +395,11 @@ body {
     top: -30rem;
     /*começa escondido acima*/
     /*ajustando o alinhamento do menu*/
-    width: 100%;
+    width: 110%;
     /*largura total da caixa do menu*/
-    height: 30vh;
+    height: 50vh;
     /*alturq da caixa do menu*/
-    background-color: #393939;
+    background-color: #0c3503;
     transition: top 0.3s ease-in-out;
     /*transição suave*/
     display: flex;
@@ -412,7 +412,7 @@ body {
 
   .show {
     /*essa class será chamada pelo javascript para ação do menu*/
-    top: 150px;
+    top: 85px;
     /*desce suavemente quando é ativado*/
     /*posicionamento dp menu*/
   }
@@ -610,35 +610,33 @@ footer {
 
 
 @media (max-width: 768px) {
-<<<<<<< HEAD
-  .footer-container {
+  <<<<<<< HEAD .footer-container {
     flex-direction: column;
     align-items: center;
   }
-=======
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .footer-section {
-        width: 80%;
-        text-align: center;
-    }
-    .section-03{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section-mobilidade{
-        flex-direction: column;
-        align-items: center;
-    }
-}
->>>>>>> e5890948ef424fdec7c78e9b40e225b208d1d7ba
+  =======.footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .footer-section {
     width: 80%;
     text-align: center;
   }
+
+  .section-03 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-mobilidade {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer-section {
+  width: 80%;
+  text-align: center;
 }
