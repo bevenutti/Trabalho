@@ -6,46 +6,53 @@
     list-style: none;
 }
 
+/* HEADER FIXO NO TOPO */
 header {
     background-color: black;
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: sticky;
-    left: 0;
     top: 0;
+    width: 100%;
     z-index: 999;
 }
-/* Centralizar conteúdo */
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0d0d0d; /* Preto profundo */
+
+.logo {
+    width: 130px;
 }
 
-/* Container do formulário */
+nav ul li button {
+    padding: 8px 18px;
+}
+
+/* FUNDO GERAL */
+body {
+    background-color: #0d0d0d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CONTAINER CENTRAL DO FORM */
 .container {
+    margin-top: 120px; /* distância segura do header */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-/* Formulário estilizado */
+/* FORMULÁRIO */
 form {
-    background-color: #111; /* Preto levemente diferente do fundo */
+    background-color: #111;
     padding: 40px 50px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 400px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    transition: 0.3s;
 }
 
 form:hover {
@@ -53,55 +60,50 @@ form:hover {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
 }
 
-/* Nome Move Smart */
 form h1 {
-    color: #00aaff; /* Azul vibrante */
-    font-size: 36px;
+    color: #00aaff;
+    font-size: 32px;
     margin-bottom: 10px;
-    letter-spacing: 2px;
 }
 
-/* Título do formulário */
 form h2 {
     margin-bottom: 25px;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-/* Inputs */
+/* INPUTS */
 input[type="text"],
 input[type="email"] {
     width: 100%;
-    padding: 12px 15px;
+    padding: 14px;
     margin: 12px 0;
     border-radius: 8px;
     border: 1px solid #333;
     background-color: #1a1a1a;
     color: #fff;
     font-size: 16px;
-    transition: border 0.3s ease, box-shadow 0.3s ease;
+    transition: 0.3s;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus {
+input:focus {
     border-color: #00aaff;
     box-shadow: 0 0 8px #00aaff;
     outline: none;
 }
 
-/* Botão */
+/* BOTÃO */
 button {
     width: 100%;
-    padding: 14px;
-    margin-top: 15px;
+    padding: 15px;
     background-color: #157c07;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: 0.3s;
 }
 
 button:hover {
@@ -109,4 +111,47 @@ button:hover {
     transform: translateY(-2px);
 }
 
-/* Placeholder */
+/* PLACEHOLDER */
+::placeholder {
+    color: #777;
+    font-size: 14px;
+}
+
+/* ================================
+   📱 MOBILE RESPONSIVO
+   ================================ */
+@media (max-width: 480px) {
+
+    header {
+        padding: 1rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    .container {
+        margin-top: 150px;
+    }
+
+    form {
+        padding: 30px 25px;
+        max-width: 90%;
+    }
+
+    form h1 {
+        font-size: 26px;
+    }
+
+    form h2 {
+        font-size: 17px;
+    }
+
+    input,
+    button {
+        font-size: 15px;
+        padding: 12px;
+    }
+}

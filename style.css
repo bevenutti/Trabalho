@@ -532,111 +532,95 @@ h5 {
 .divtexto p {
   font-size: 20px;
 }
-
 footer {
-  background-color: #000000;
-  color: white;
-  padding: 40px 0;
+    background-color: #000000;
+    color: white;
+    padding: 40px 0;
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .footer-section {
-  width: 22%;
-  margin-bottom: 20px;
+    width: 22%;
+    margin-bottom: 20px;
 }
 
 .footer-section h6 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #f4f4f4;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #f4f4f4;
 }
 
 .footer-section ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .footer-section ul li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .footer-section a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .footer-section a:hover {
-  color: #f4f4f4;
+    color: #f4f4f4;
 }
 
 .footer-section input[type="email"] {
-  padding: 10px;
-  width: 80%;
-  margin-right: 5px;
-  border: none;
-  border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 .footer-section button {
-  padding: 10px;
-  background-color: #0a5f2d;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+    padding: 10px;
+    background-color: #0a5f2d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .footer-section button:hover {
-  background-color: #39b314;
+    background-color: #39b314;
 }
 
 .footer-bottom {
-  text-align: center;
-  margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .footer-bottom p {
-  margin: 0;
-  font-size: 0.9rem;
+    margin: 0;
+    font-size: 0.9rem;
 }
 
 
 @media (max-width: 768px) {
-  <<<<<<< HEAD .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  =======.footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
+    .footer-section {
+        width: 80%;
+        text-align: center;
+    }
 
-  .footer-section {
-    width: 80%;
-    text-align: center;
-  }
-
-  .section-03 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .section-mobilidade {
-    flex-direction: column;
-    align-items: center;
-  }
+    .section-02{
+        flex-direction: column;
+    }
 }
 
-.footer-section {
-  width: 80%;
-  text-align: center;
-}

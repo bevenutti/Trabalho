@@ -20,7 +20,27 @@ header {
 .logo {
     width: 8rem;
     height: auto;
-  
+    
+}
+.section-01{
+background-image: url(imagem/banner-4.png);
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 12rem;
+gap: 1rem;
+}
+.section-banner2{
+background-image: url(imagem/banner\ terra.png);
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 12rem;
+gap: 1rem;
+
+
+
+
 }
 
 .ul-list {
